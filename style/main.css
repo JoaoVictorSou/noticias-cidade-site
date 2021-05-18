@@ -22,7 +22,7 @@ a {
 header {
     width: 100%;
     height: 233px;
-    background: #274972 url(../img/fundo.png);
+    background: #274972 url(../img/fundo.png) repeat-x;
     position: relative;
 }
 header div {
@@ -49,8 +49,8 @@ header nav {
 }
 header nav ul li {
     display: inline;
-    padding: 0.7em 0.7em;
     background-color: #ba000d;
+    padding: 0.7em 0;
 }
 header nav ul li+li{
     background-image: url(../img/divisor.png);
@@ -59,13 +59,18 @@ header nav ul li+li{
 }
 header nav ul li a {
     color: #fff;
+    padding: 0.7em 0.7em;
 }
 #now {
     background-color: #f44336;
 }
+
+
+/*Barra de navegação do cabeçalho: interação*/
 header nav ul li:hover {
-    display: inline;
-    padding: 0.8em 0.7em;
+    padding: 0.8em 0;
     background-color: #ff7961;
-    cursor: pointer;
+}
+header nav ul li a:hover {
+    padding: 0.8em 0.7em;
 }
