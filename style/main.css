@@ -73,3 +73,46 @@ header nav ul li:hover {
 header nav ul li a:hover {
     padding: 0.8em 0.7em;
 }
+
+/*Corpo do site*/
+main {
+    margin: auto;
+    width: 700px;
+    border: solid black 1px;
+}
+#maincontent {
+    float: right;
+}
+main #maincontent .contentbox {
+    width: 255px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    background-position: top left;
+}
+main #maincontent .contentbox img {
+    width: 250px;
+    border: 2px solid #dfdfdf;
+}
+main #maincontent .contentbox p {
+    width: 225px;
+    font-size: 0.9em;
+}
+main #maincontent .contentbox h2 {
+    padding: 4px;
+    background-color: #274972;
+    color: #fff;
+    font-size: 1.05em;
+}
+main #maincontent .contentbox h3 {
+    display: inline-block;
+    padding: 2px;
+    background-color: #ba000d;
+    color: #fff;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+main #maincontent .contentbox a {
+    padding: 2px;
+    color: #ba000d;
+    font-weight: normal;
+    text-decoration: underline;
+}
