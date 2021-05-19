@@ -77,42 +77,91 @@ header nav ul li a:hover {
 /*Corpo do site*/
 main {
     margin: auto;
-    width: 700px;
-    border: solid black 1px;
+    width: 720px;
 }
 #maincontent {
     float: right;
 }
+/*Caixas de conteúdo*/
+main #maincontent .row {
+    margin-top: 15px;
+}
 main #maincontent .contentbox {
-    width: 255px;
+    margin-left: 10px;
+    width: 265px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
-    background-position: top left;
-}
-main #maincontent .contentbox img {
-    width: 250px;
-    border: 2px solid #dfdfdf;
-}
-main #maincontent .contentbox p {
-    width: 225px;
-    font-size: 0.9em;
+    display: inline-block;
 }
 main #maincontent .contentbox h2 {
-    padding: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 93%;
     background-color: #274972;
     color: #fff;
     font-size: 1.05em;
 }
 main #maincontent .contentbox h3 {
-    display: inline-block;
-    padding: 2px;
-    background-color: #ba000d;
-    color: #fff;
+    color: #274972;
     font-size: 0.8em;
     text-transform: uppercase;
 }
+main #maincontent .contentbox figure {
+    margin: auto;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 260px;
+    background-color: #fff;
+}
 main #maincontent .contentbox a {
+    color: black;
+}
+/*Caixas de conteúdo: primárias*/
+main #maincontent .contentbox.primary img {
+    margin: auto;
+    display: block;
+    border: 3px solid #dfdfdf;
+    width: 240px;
+}
+main #maincontent .contentbox.primary figcaption {
+    padding: 0 5px;
+    width: 225px;
+    font-size: 0.9em;
+    text-align: left;
+}
+main #maincontent .contentbox.primary h3 {
     padding: 2px;
+    width: max-content;
+    background-color: #ba000d;
+    color: #fff;
+}
+main #maincontent .contentbox.primary a {
+    padding: 0 5px;
     color: #ba000d;
     font-weight: normal;
     text-decoration: underline;
+}
+
+/*Caixas de conteúdo: listbox*/
+main #maincontent .contentbox.listbox figure {
+    padding: 1px;
+    margin-top: 0;
+}
+main #maincontent .contentbox.listbox img{
+    width: 90px;
+    float: left;
+    margin-left: 5px;
+}
+main #maincontent .contentbox.listbox .listtext {
+    display: inline-block;
+    width: 165px;
+}
+main #maincontent .contentbox.listbox h3 {
+    display: inline-block;
+    font-size: 0.75em;
+}
+main #maincontent .contentbox.listbox figcaption {
+    display: inline-block;
+    padding: 0 5px;
+    width: 170px;
+    font-size: 0.6em;
 }
