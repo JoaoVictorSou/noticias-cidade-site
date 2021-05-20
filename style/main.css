@@ -77,13 +77,44 @@ header nav ul li a:hover {
 /*Corpo do site*/
 main {
     margin: auto;
-    width: 720px;
+    width: 770px;
+    margin-top: 15px;
 }
 #maincontent {
     float: right;
 }
+main h2 {
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: #274972;
+    margin: 5px auto;
+    font-size: 1.05em;
+    color: #fff;
+    width: 247px;
+}
+/*Navegação lateral*/
+main aside {
+    padding: 5px 0;
+    background-image: url(../img/fundo-caixa.png);
+    width: 190px;
+}
+main aside ul {
+    margin: auto;
+    background-color: #fff;
+    width: 180px;
+}
+main aside ul li {
+    margin: auto;
+    padding: 10px 5px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    width: 155px;
+    font-size: 0.8em;
+}
+main aside h2 {
+    width: 173px;
+}
 /*Caixas de conteúdo*/
-main #maincontent .row {
+main #maincontent .row + .row {
     margin-top: 15px;
 }
 main #maincontent .contentbox {
@@ -91,14 +122,6 @@ main #maincontent .contentbox {
     width: 275px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
     display: inline-block;
-}
-main #maincontent .contentbox h2 {
-    padding: 5px;
-    background-color: #274972;
-    margin: 5px auto;
-    font-size: 1.05em;
-    color: #fff;
-    width: 247px;
 }
 main #maincontent .contentbox h3 {
     color: #274972;
@@ -146,7 +169,7 @@ main #maincontent .contentbox.primary a {
 /*Caixas de conteúdo: listbox*/
 main #maincontent .contentbox.listbox .middlecontent li {
     margin: auto;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(230, 230, 230);;
     width: 245px;
     height: 70px;
 }
