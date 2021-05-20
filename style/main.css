@@ -88,7 +88,7 @@ main #maincontent .row {
 }
 main #maincontent .contentbox {
     margin-left: 10px;
-    width: 265px;
+    width: 275px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
     display: inline-block;
 }
@@ -148,6 +148,7 @@ main #maincontent .contentbox.listbox .middlecontent li {
     margin: auto;
     border-bottom: 1px solid gray;
     width: 245px;
+    height: 70px;
 }
 main #maincontent .contentbox.listbox .middlecontent li a img {
     width: 90px;
@@ -164,7 +165,7 @@ main #maincontent .contentbox.listbox .middlecontent li .listtext {
 main #maincontent .contentbox.listbox .middlecontent li h3 {
     font-size: 0.7em;
 }
-main #maincontent .contentbox.listbox .middlecontent figcaption {
+main #maincontent .contentbox.listbox .middlecontent p {
     padding: 0 5px;
     font-size: 0.6em;
 }
