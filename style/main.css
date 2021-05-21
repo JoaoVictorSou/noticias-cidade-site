@@ -84,13 +84,12 @@ main {
     float: right;
 }
 main h2 {
-    padding: 5px;
-    padding-bottom: 10px;
+    padding: 2.5%;
     background-color: #274972;
     margin: 5px auto;
     font-size: 1.05em;
     color: #fff;
-    width: 91%;
+    width: 93%;
 }
 /*Caixas de conteúdo - para cada configuração de colunas no site*/
 main #maincontent .row + .row {
@@ -124,8 +123,8 @@ main #maincontent .contentbox .middlecontent {
     margin: auto;
     margin-bottom: 5px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    width: 255px;
+    padding-bottom: 3px;
+    width: 97%;
     background-color: #fff;
 }
 main #maincontent .contentbox a {
@@ -136,7 +135,7 @@ main #maincontent .contentbox.primary img {
     margin: auto;
     display: block;
     border: 3px solid #dfdfdf;
-    width: 240px;
+    width: 95%;
 }
 main #maincontent .contentbox.primary figcaption {
     padding: 0 5px;
@@ -161,10 +160,10 @@ main #maincontent .contentbox.primary a {
 main #maincontent .contentbox.listbox .middlecontent li {
     margin: auto;
     border-bottom: 1px solid rgb(230, 230, 230);
-    width: 245px;
+    width: 98%;
     height: 70px;
 }
-main #maincontent .contentbox.listbox .middlecontent li a img {
+main #maincontent .contentbox.listbox .middlecontent li img {
     width: 90px;
     float: left;
     padding: 5px;
@@ -173,16 +172,20 @@ main #maincontent .contentbox.listbox .middlecontent li .listtext {
     float: left;
     margin-left: -5px;
     padding-top: 5px;
-    width: 150px;
+    width: 60%;
     height: 50px;
 }
 main #maincontent .contentbox.listbox .middlecontent li h3 {
     font-size: 0.7em;
 }
+main #maincontent .contentbox.listbox .middlecontent li:hover {
+    background-color: #f3f3f3;
+}
 main #maincontent .contentbox.listbox .middlecontent p {
     padding: 0 5px;
-    font-size: 0.6em;
+    font-size: 0.65em;
 }
+
 /*Navegação lateral*/
 main aside {
     padding: 1px 0 5px 0;
