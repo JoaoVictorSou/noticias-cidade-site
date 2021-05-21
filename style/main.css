@@ -90,55 +90,29 @@ main h2 {
     margin: 5px auto;
     font-size: 1.05em;
     color: #fff;
-    width: 247px;
+    width: 91%;
 }
-/*Navegação lateral*/
-main aside {
-    padding: 1px 0 5px 0;
-    background-image: url(../img/fundo-caixa.png);
-    width: 190px;
-}
-main aside + aside {
-    margin-top: 15px;
-}
-main aside .middleaside {
-    margin: auto;
-    background-color: #fff;
-    width: 170px;
-    padding: 5px;
-}
-main aside ul li {
-    margin: auto;
-    padding: 10px 5px;
-    border-bottom: 1px solid rgb(230, 230, 230);
-    width: 155px;
-    font-size: 0.8em;
-}
-main aside h2 {
-    width: 173px;
-}
-
-/*Navegação lateral: contato*/
-main aside form input {
-    width: 140px;
-    font-size: 0.95em;
-}
-main aside form input[type="submit"] {
-    padding: 5px;
-    background-color: #ba000d;
-    width: 100px;
-    color: #fff;
-}
-
-/*Caixas de conteúdo*/
+/*Caixas de conteúdo - para cada configuração de colunas no site*/
 main #maincontent .row + .row {
     margin-top: 15px;
 }
-main #maincontent .contentbox {
+#threecolumn main #maincontent .contentbox {
     margin-left: 10px;
     width: 270px;
     background: #f3f3f3 url(../img/fundo-caixa.png);
     display: inline-block;
+}
+#twocolumn main #maincontent .contentbox {
+    display: inline-block;
+    margin-left: 10px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    width: 555px;
+
+}
+#onecolumn main .contentbox {
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    width: 750px;
+    background: blue;
 }
 main #maincontent .contentbox h3 {
     color: #274972;
@@ -208,6 +182,54 @@ main #maincontent .contentbox.listbox .middlecontent li h3 {
 main #maincontent .contentbox.listbox .middlecontent p {
     padding: 0 5px;
     font-size: 0.6em;
+}
+/*Navegação lateral*/
+main aside {
+    padding: 1px 0 5px 0;
+    background-image: url(../img/fundo-caixa.png);
+    width: 190px;
+}
+main aside + aside {
+    margin-top: 15px;
+}
+main aside .middleaside {
+    margin: auto;
+    background-color: #fff;
+    width: 170px;
+    padding: 5px;
+}
+main aside ul li {
+    margin: auto;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    width: 155px;
+    font-size: 0.8em;
+}
+main aside h2 {
+    width: 173px;
+}
+main aside ul li a {
+    display: block;
+    padding: 10px 5px;
+    color: #000;
+}
+main aside ul li a:hover {
+    background-color: #f3f3f3;
+    background-image: url(../img/);
+    color: #a8a5a5;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+/*Navegação lateral: contato*/
+main aside form input {
+    width: 140px;
+    font-size: 0.95em;
+}
+main aside form input[type="submit"] {
+    padding: 5px;
+    background-color: #ba000d;
+    width: 100px;
+    color: #fff;
 }
 
 /*Rodapé do site*/
