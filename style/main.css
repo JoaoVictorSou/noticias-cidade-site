@@ -84,34 +84,32 @@ main {
     float: right;
 }
 main h2 {
-    padding: 2.5%;
     background-color: #274972;
     margin: 5px auto;
     font-size: 1.05em;
     color: #fff;
-    width: 93%;
+    width: 99%;
+    padding: 0 0 10px 5px
 }
 /*Caixas de conteúdo - para cada configuração de colunas no site*/
 main #maincontent .row + .row {
     margin-top: 15px;
 }
-#threecolumn main #maincontent .contentbox {
-    margin-left: 10px;
-    width: 270px;
-    background: #f3f3f3 url(../img/fundo-caixa.png);
+main #maincontent .contentbox {
     display: inline-block;
+    margin-left: 10px;
+    background-image: url(../img/fundo-caixa.png);
+    padding: 0 5px;
+}
+#threecolumn main #maincontent .contentbox {
+    width: 260px;
 }
 #twocolumn main #maincontent .contentbox {
-    display: inline-block;
-    margin-left: 10px;
-    background: #f3f3f3 url(../img/fundo-caixa.png);
-    width: 555px;
-
+    width: 550px;
 }
-#onecolumn main .contentbox {
-    background: #f3f3f3 url(../img/fundo-caixa.png);
+#onecolumn main #maincontent .contentbox {
+    margin-left: 0;
     width: 750px;
-    background: blue;
 }
 main #maincontent .contentbox h3 {
     color: #274972;
@@ -124,7 +122,7 @@ main #maincontent .contentbox .middlecontent {
     margin-bottom: 5px;
     padding-top: 5px;
     padding-bottom: 3px;
-    width: 97%;
+    width: 99%;
     background-color: #fff;
 }
 main #maincontent .contentbox a {
