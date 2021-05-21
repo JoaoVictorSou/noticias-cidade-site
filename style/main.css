@@ -185,7 +185,12 @@ main #maincontent .contentbox.listbox .middlecontent p {
     padding: 0 5px;
     font-size: 0.65em;
 }
-
+.contentbox.listbox a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
 /*Navegação lateral*/
 main aside {
     padding: 1px 0 5px 0;
