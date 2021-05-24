@@ -214,8 +214,7 @@ main aside ul li a {
     color: #000;
 }
 main aside ul li a:hover {
-    background-color: #f3f3f3;
-    background-image: url(../img/);
+    background: #f3f3f3 url(../img/marcador.png) no-repeat left center;
     color: #a8a5a5;
     padding-left: 20px;
     padding-right: 0;
